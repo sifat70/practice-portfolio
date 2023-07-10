@@ -31,7 +31,7 @@ body {
 .header-title {
     color: #151414;
     text-align: right;
-    font-size: 85px;
+    font-size: 65px;
     font-style: normal;
     font-weight: 700;
     margin-top: -30px;
@@ -42,7 +42,7 @@ body {
 .header-description {
     color: #444343;
     text-align: right;
-    font-size: 26px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     margin-bottom: 20px;
@@ -91,7 +91,7 @@ body {
 
 .checkbox-title {
     color: #151414;
-    font-size: 85px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     /* margin-top: -30px; */
@@ -103,7 +103,7 @@ body {
 
 .checkbox-description {
     color: #444343;
-    font-size: 28px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     margin-bottom: 30px;
@@ -112,7 +112,7 @@ body {
 
 .failure-list {
     color: #444343;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
 
     font-weight: 400;
@@ -194,8 +194,7 @@ body {
     height: 50vh;
     width: 85%;
     margin: auto;
-    margin-top: -80px;
-    margin-bottom: 80px;
+    margin-top: -20px;
 }
 
 .about-banner {}
@@ -206,15 +205,81 @@ body {
     font-style: normal;
     font-weight: 700;
     margin-left: 100px;
-    margin-top: 100px;
+    margin-top: 20px;
     color: #050505;
     line-height: normal;
 }
 
 .extra {
     margin-left: 100px;
-    margin-top: 60px;
-    font-weight: bold;
-    font-size: 30px;
-    padding: 40px;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+/* footer section styles */
+.footer-section{
+    background: black;
+    color: white;
+    margin-top: 100px;
+}
+.footer-container{
+    display: flex;
+    padding: 100px 0px;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.footer-left{
+    width: 50%;
+}
+.footer-left h2{
+    color: #fff;
+}
+.footer-left> p{
+    color: #FFF;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.address-info p{
+    color: #FFF;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.social-link{
+    padding-top: 20px;
+}
+.social-link img{}
+
+h3.subscribe-title{
+font-size: 25px;
+padding-bottom: 20px;
+}
+.contact-form{ 
+    display: flex;
+    flex-direction: column;
+}
+.contact-form input{
+    width: 320px;
+    height: 60px;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    background-color: #151414;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    color: #F3F3F3;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.btn-subscribe{
+   width: 170px;
+   background-color: white;
+   color: #F15B22;
+   padding: 20px;
+   font-size: 20px;
+   font-weight: bold;
+   border: none;
+   border-radius: 10px;
 }
